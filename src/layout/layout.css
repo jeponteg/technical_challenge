@@ -1,0 +1,26 @@
+.sidebar {
+    position: absolute;
+    height: 95vh;
+    width: 4rem;
+    left: 0;
+    z-index: 1;
+    background-color: #042332;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.profilePhoto {
+    padding: 0.5rem;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    min-height: 95vh;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}

@@ -1,0 +1,14 @@
+.mainDesktopContainer {
+    justify-content: center;
+}
+.desktopTitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+}
+.desktopImage {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}

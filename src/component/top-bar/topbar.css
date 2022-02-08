@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+}
+
+.btn-menu {
+	display: none;
+	padding: 20px;
+	background: #0d2c44;
+	color:#fff;
+}
+
+.btn-menu .icono {
+	float: right;
+}
+
+.contenedor-menu-session {
+	width: 20%;
+	min-width: 300px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	line-height: 18px;
+}
+
+.contenedor-menu-session .menu {
+	width: 100%;
+}
+
+.contenedor-menu-session ul {
+	list-style: none;
+}
+
+.contenedor-menu-session .menu li a {
+	color:#050505;
+	display: block;
+	padding: 15px 20px;
+}
+
+.contenedor-menu-session .menu .icono {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.contenedor-menu-session .menu .icono.izquierda {
+	float: left;
+	margin-right: 10px; 
+}
+
+.contenedor-menu-session .menu .icono.derecha {
+	float: right;
+	margin-left: 10px; 
+}
+
+.contenedor-menu-session .menu .activado > a {
+	background: #1a95d5;
+	color:#fff;
+}
+
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ffff;
+    overflow: hidden;
+}
+
+.logo {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu {
+    padding-right: 2rem;
+}
+
+.contenedor-info-session {
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 4rem;
+    min-width: 6rem;
+    background-color: #0d2c44;
+    border-radius: 10px;
+    position: absolute;
+}
+.span-label {
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 0.75rem;
+}
+.span-label-name{
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    font-size: 0.75rem;
+}
+
+.button-salir{
+    margin-top:2rem;
+    width: 20%;
+}
